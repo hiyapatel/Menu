@@ -1,0 +1,114 @@
+* {
+  margin: 0px auto;
+  padding: 0px 0px;
+  font-family: sans-serif; }
+
+body {
+  background: #F7DC5F; }
+
+.toplogo {
+  height: 7vh;
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: 1vw; }
+
+.navbar {
+  position: absolute;
+  margin-top: 3vh;
+  right: 2vw; }
+  .navbar li {
+    list-style: none;
+    padding: 0 1.5vw;
+    display: inline-block;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    min-width: 4.8vw; }
+  .navbar .active {
+    font-weight: bolder; }
+
+.topbars {
+  position: absolute;
+  right: 2.5vw;
+  margin-top: 0vh;
+  padding-top: 0vh; }
+  .topbars li {
+    background: #070707;
+    padding: 0 1.5vw;
+    margin-left: 1vw;
+    height: 0.2vh;
+    width: 4vw;
+    list-style: none;
+    display: inline-block; }
+  .topbars .active {
+    height: 0.8vh; }
+
+.topnav {
+  display: flex; }
+
+.header {
+  display: block;
+  background-color: #070707;
+  color: #F7DC5F;
+  margin-top: 9vh;
+  height: 60vh; }
+
+.description {
+  padding-top: 15vh;
+  text-align: center;
+  font-size: 130%; }
+  .description h1 {
+    padding-bottom: 5vh;
+    font-family: 'Arizonia', cursive;
+    font-size: 15vh; }
+  .description p {
+    display: block;
+    padding-left: 15vw;
+    padding-right: 15vw; }
+
+.listitem {
+  display: block;
+  padding-top: 10vh; }
+
+.items {
+  display: flex;
+  background: #02111ce6;
+  color: #F7DC5F;
+  margin: 0 10vw 0 20vw;
+  min-height: 35vh;
+  border-radius: 20px;
+  padding-left: 15vw;
+  padding-top: 10vh;
+  font-size: 130%; }
+  .items h1 {
+    display: flex;
+    text-align: left;
+    position: absolute;
+    font-family: 'Salsa', cursive; }
+  .items ol {
+    padding-top: 12vh;
+    padding-left: 8vw;
+    position: absolute; }
+    .items ol li {
+      padding-bottom: 1vh; }
+
+img {
+  position: absolute;
+  display: flex;
+  height: 35vh;
+  margin-top: 5vh;
+  margin-left: 15vw;
+  border: 1px solid; }
+
+a {
+  text-decoration: none;
+  color: #070707; }
+
+.copy {
+  min-height: 5vh;
+  font-size: 130%;
+  color: #F7DC5F;
+  background-color: #070707;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  padding: 2vh 0;
+  text-align: center; }
