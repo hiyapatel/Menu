@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Menu</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Salsa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div class="topnavs">
+        <img src="img/logo.PNG" alt="Spice it Up!" class="toplogo" href="index.html">
+        <div class="topbars">
+            <ul>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li class="active"><span></span></li>
+            </ul>
+        </div>
+        <div class="navbars">
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="menu.html">Menu</a></li>
+                <li class="nav-item"><a href="galary.html">Galary</a></li>
+                <li class="nav-item active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="description">
+            <h1>Contacts & Feedback</h1>
+            <p>Feedbacks are always welcomed. Feel free to put some notes for us. <br>
+                We will make your visit more enjoyable.</p>
+        </div>
+    </div>
+
+
+    <form>
+        <fieldset>
+          <legend>Book a Table</legend>
+        <div class="form-group row">
+            <label for="firstname" class="col-md-2 col-form-label"><b>Name : </b></label>
+            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+        </div>
+
+        <div class="form-group row">
+            <label for="telnum" class="col-12 col-md-2 col-form-label"><b>Contact : </b></label>
+            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+        </div>
+
+        <div class="form-group row">
+            <label for="emailid" class="col-md-2 col-form-label"><b>Email : </b></label>
+            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+        </div>
+
+        <div class="form-group row">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                    <label class="form-check-label" for="approve" id="que">
+                        <strong>May we contact you?</strong>
+                    </label>
+                    <select class="form-control">
+                        <option>Phone</option>
+                        <option>Email</option>
+                    </select>
+                </div>
+
+        </div>
+
+        <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label"><b>Your Feedback : </b></label><br>
+            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+        </div>
+
+        <div class="form-group row">
+            <button type="submit">
+                Send Feedback
+            </button>
+        </div>
+        </fieldset>
+    </form>
+
+
+    <div class="copy">
+        Have a happy meal...!
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

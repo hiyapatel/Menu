@@ -1,5 +1,5 @@
 $background-dark: #070707;
-$background-light: #F7DC5F; 
+$background-light: #F7DC5F;
 
 @mixin zero-margin($pad-top-bottom:0px, $pad-left-right:0px){
     margin: 0px auto;
@@ -21,7 +21,7 @@ body{
     margin-left: 1vw;
 }
 
-.navbar{
+.navbars{
     position: absolute;
     margin-top: 3vh;
     right: 2vw;
@@ -54,7 +54,7 @@ body{
         padding: 0 1.5vw;
         margin-left: 1vw;
         height:0.2vh;
-        width: 4vw; 
+        width: 4vw;
         list-style: none;
         display: inline-block;
     }
@@ -65,7 +65,7 @@ body{
 
 }
 
-.topnav{
+.topnavs{
     display: flex;
 }
 
@@ -81,7 +81,7 @@ body{
     padding-top: 15vh;
     text-align: center;
     font-size: 130%;
-    
+
 
     h1{
         padding-bottom: 5vh;
@@ -145,7 +145,7 @@ body{
     }
     #four{
         background: #02111ce6;
-    }    
+    }
 
 }
 
@@ -164,6 +164,74 @@ a{
     color: $background-dark;
 }
 
+form{
+    margin: 5vh 13vw;
+
+    legend{
+      padding: 0vh 2vw;
+      font-size: 2.5vw;
+      font-family: 'Salsa', cursive;
+    }
+
+    fieldset{
+      border-color: $background-dark;
+      padding: 5vh 7vw;
+      font-size: 1.5vw;
+      font-family: 'Salsa', cursive;
+
+
+      .row{
+        padding-bottom: 2vh;
+      }
+
+      #firstname,#lastname,#telnum,#emailid{
+        height: 3.5vh;
+        width: 20vw;
+        font-size: 1vw;
+        padding-left: 0.5vw;
+        margin-left: 5.2vw;
+      }
+      #telnum{
+        margin-left: 3.75vw;
+      }
+      #emailid{
+        margin-left: 5.2vw;
+      }
+    }
+
+    #approve{
+      margin-left: 9vw;
+    }
+
+    textarea{
+      width: 60vw;
+      margin-left: 3vw;
+      margin-top: 1.5vh;
+      padding: 1vh;
+    }
+    #que{
+      margin-left: 1vw;
+    }
+
+    select{
+      margin-left: 1.2vw;
+      font-size: 1.1vw;
+    }
+
+    button{
+      font-size: 2.5vh;
+      padding: 1.5vh;
+      margin-bottom: 0vh;
+      background-color: $background-dark;
+      color: $background-light;
+      border-radius: 5px;
+      border: 0px;
+      margin-left: 27vw;
+    }
+
+}
+
+
 .copy{
     min-height: 5vh;
     font-size: 130%;
@@ -174,4 +242,3 @@ a{
     padding: 2vh 0;
     text-align: center;
 }
-

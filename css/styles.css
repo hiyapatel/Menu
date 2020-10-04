@@ -1,0 +1,173 @@
+* {
+  margin: 0px auto;
+  padding: 0px 0px;
+  font-family: sans-serif; }
+
+body {
+  background: #F7DC5F; }
+
+.toplogo {
+  height: 7vh;
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: 1vw; }
+
+.navbars {
+  position: absolute;
+  margin-top: 3vh;
+  right: 2vw; }
+  .navbars li {
+    list-style: none;
+    padding: 0 1.5vw;
+    display: inline-block;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    min-width: 4.8vw; }
+  .navbars .active {
+    font-weight: bolder; }
+
+.topbars {
+  position: absolute;
+  right: 2.5vw;
+  margin-top: 0vh;
+  padding-top: 0vh; }
+  .topbars li {
+    background: #070707;
+    padding: 0 1.5vw;
+    margin-left: 1vw;
+    height: 0.2vh;
+    width: 4vw;
+    list-style: none;
+    display: inline-block; }
+  .topbars .active {
+    height: 0.8vh; }
+
+.topnavs {
+  display: flex; }
+
+.header {
+  display: block;
+  background-color: #070707;
+  color: #F7DC5F;
+  margin-top: 9vh;
+  height: 60vh; }
+
+.description {
+  padding-top: 15vh;
+  text-align: center;
+  font-size: 130%; }
+  .description h1 {
+    padding-bottom: 5vh;
+    font-family: 'Arizonia', cursive;
+    font-size: 15vh; }
+  .description p {
+    display: block;
+    padding-left: 15vw;
+    padding-right: 15vw; }
+
+.listitem {
+  display: block;
+  padding-top: 10vh; }
+
+.items {
+  display: flex;
+  color: #F7DC5F;
+  text-align: center;
+  margin: 0 10vw 0 20vw;
+  min-height: 35vh;
+  border-radius: 20px;
+  padding-left: 15vw;
+  padding-top: 9vh;
+  font-size: 130%; }
+  .items h1 {
+    display: block;
+    position: absolute;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    min-width: 1em; }
+  .items ul {
+    list-style: none;
+    padding-top: 11vh;
+    padding-left: 10vw;
+    position: absolute; }
+    .items ul li {
+      padding-bottom: 1vh; }
+
+.listitem #one {
+  background: #1c0e02e6; }
+
+.listitem #two {
+  background: #041c02e6; }
+
+.listitem #three {
+  background: #0b021ce6; }
+
+.listitem #four {
+  background: #02111ce6; }
+
+img {
+  position: absolute;
+  display: flex;
+  height: 35vh;
+  margin-top: 5vh;
+  margin-left: 14vw;
+  border: 1px solid; }
+
+a {
+  text-decoration: none;
+  color: #070707; }
+
+form {
+  margin: 5vh 13vw; }
+  form legend {
+    padding: 0vh 2vw;
+    font-size: 2.5vw;
+    font-family: 'Salsa', cursive; }
+  form fieldset {
+    border-color: #070707;
+    padding: 5vh 7vw;
+    font-size: 1.5vw;
+    font-family: 'Salsa', cursive; }
+    form fieldset .row {
+      padding-bottom: 2vh; }
+    form fieldset #firstname, form fieldset #lastname, form fieldset #telnum, form fieldset #emailid {
+      height: 3.5vh;
+      width: 20vw;
+      font-size: 1vw;
+      padding-left: 0.5vw;
+      margin-left: 5.2vw; }
+    form fieldset #telnum {
+      margin-left: 3.75vw; }
+    form fieldset #emailid {
+      margin-left: 5.2vw; }
+  form #approve {
+    margin-left: 9vw; }
+  form textarea {
+    width: 60vw;
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+    padding: 1vh; }
+  form #que {
+    margin-left: 1vw; }
+  form select {
+    margin-left: 1.2vw;
+    font-size: 1.1vw; }
+  form button {
+    font-size: 2.5vh;
+    padding: 1.5vh;
+    margin-bottom: 0vh;
+    background-color: #070707;
+    color: #F7DC5F;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 27vw; }
+
+.copy {
+  min-height: 5vh;
+  font-size: 130%;
+  color: #F7DC5F;
+  background-color: #070707;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  padding: 2vh 0;
+  text-align: center; }
